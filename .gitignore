@@ -346,3 +346,11 @@ MaskFiles/
 # macOS
 
 **/.DS_Store
+
+# Explicitly published fork artifacts; keep other release outputs ignored.
+!/releases/
+/releases/*
+!/releases/README.md
+!/releases/build-info.json
+!/releases/SHA256SUMS.txt
+!/releases/Plain_Craft_Launcher_dndss_2.15.1_win-x64.exe
