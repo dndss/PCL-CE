@@ -1,0 +1,57 @@
+{
+  "name": "Plain Craft Launcher (PCL) dndss 修改版",
+  "version": "2.15.1.0",
+  "buildDate": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "repository": "https://github.com/dndss/PCL-CE",
+  "targetBranch": "dev",
+  "forkBaseCommit": "8f0beaf9315597fdd4cf6171d7e1074e10171be9",
+  "sourceCommit": "bd231e96e350ac4b92fe32d3c8e24dc568abd107",
+  "configuration": "Release",
+  "runtime": "win-x64",
+  "sdkVersion": "10.0.402",
+  "selfContained": false,
+  "requiredRuntime": ".NET 10 Desktop Runtime x64",
+  "binary": {
+    "file": "Plain_Craft_Launcher_dndss_2.15.1_win-x64.exe",
+    "sizeBytes": 23476517,
+    "sha256": "FD7F7E9FBF235BD2D14A36BD467EF50F877D8B4FE3FD35970018DA3E7D10C71B"
+  },
+  "microsoftOAuth": {
+    "clientId": "4a07b708-b86d-4365-a55f-f4f23ecb85ab",
+    "source": "https://github.com/GongSunFangYun/mcauth3/blob/151ebf185241d8a93d02a8c8d027627e04f7adf2/src/mcauth3/mcauth3.py#L19",
+    "pythonLibraryIncluded": false,
+    "deviceCodeRequestVerified": true,
+    "fullAccountLoginVerified": false,
+    "minecraftLoginVerified": false,
+    "gameLaunchVerified": false
+  },
+  "validation": {
+    "publishExitCode": 0,
+    "compileErrors": 0,
+    "isX64PE": true,
+    "clientIdEmbedded": true,
+    "sourceCommitEmbedded": true,
+    "remainingRegionRestrictionReferences": 0
+  },
+  "tests": {
+    "total": 51,
+    "passed": 49,
+    "failed": 2,
+    "skipped": 0,
+    "status": "failed_known_upstream_issues",
+    "filter": "FullyQualifiedName~LocalizationTest|FullyQualifiedName~ModDependencyResolverTest|FullyQualifiedName~ProfileManagementTest|FullyQualifiedName~SaveImportHelperTest|FullyQualifiedName~SaveManagerTest",
+    "knownUpstreamFailures": [
+      "AllLanguageDictionariesShouldContainBaseKeys",
+      "FontProfileShouldFollowCultureGlyphStandard"
+    ],
+    "failureBaselineCommit": "1a7653127d578efdb2a9388999a3fdc67d9e49d5"
+  },
+  "notes": [
+    "Preserves fork update-source fix #3684.",
+    "Reverts region restrictions introduced by #3673 and #3676.",
+    "Retains Minecraft authentication error response details.",
+    "No private upstream service keys or user login credentials are included.",
+    "Full authentication and service availability are not guaranteed."
+  ]
+}
