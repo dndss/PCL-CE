@@ -11,9 +11,11 @@
 
 ## 下载与使用
 
-- [下载 Windows x64 测试构建](https://github.com/dndss/PCL-CE/raw/refs/heads/dev/releases/Plain_Craft_Launcher_dndss_2.15.1_win-x64.exe)
-- [SHA256 校验值](releases/SHA256SUMS.txt)
-- [构建与验证记录](releases/README.md)
+- [下载 Windows x64 测试构建](https://github.com/dndss/PCL-CE/releases/download/v2.15.1-dndss.1/Plain_Craft_Launcher_dndss_2.15.1_win-x64.exe)
+- [SHA256 校验值](https://github.com/dndss/PCL-CE/releases/download/v2.15.1-dndss.1/SHA256SUMS.txt)
+- [Release 说明](https://github.com/dndss/PCL-CE/releases/tag/v2.15.1-dndss.1) · [构建与验证记录](https://github.com/dndss/PCL-CE/releases/download/v2.15.1-dndss.1/build-info.json)
+
+EXE、校验值和构建记录作为 GitHub Releases 附件发布，源码分支不再存放构建产物。此版本标记为测试版（Pre-release）。
 
 需要 Windows 10 1809 或更高版本及 [.NET 10 Desktop Runtime x64](https://get.dot.net/10)。关闭旧启动器后，将 EXE 放入原启动器所在目录使用。切换 Client ID 后可能需要重新进行微软登录，无需预先删除账号记录或配置。
 
